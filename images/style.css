@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+div.slideD{
+    height: 720px;
+    width:1280px;
+    -moz-background-size:100%, 100%;
+    background-size: 100%, 100%;
+}
+
+
+div.location{
+    height:680px;
+    width:100%;
+    background-color: antiquewhite;
+}
+
+div.map {
+ margin-top: 30px;
+ margin-bottom: 30px;
+  width: 800px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+   margin-left: 30px;
+   float: left; 
+   background-color: white;
+   
+}
+
+div.desmap{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+    float:right;
+    margin-right: 30px; 
+    font-family: avenir;
+    font-size: 150%;
+    background-color: white;
+}
+#map2{
+    text-align: center;
+    font-family: avenir;
+    font-size: 300%   
+}
+
+#map3{
+    text-align: center;
+    font-family: avenir;
+    font-size: 200%   
+}
+
+#intro1{
+    font-size: 500%;
+    font-family: georgia;
+    color: white;
+    text-shadow: 2px 3px 2px #000;
+}
+
+#intro2{
+    font-size: 200%;
+    font-family: arial;
+    color: white;
+    text-shadow: 2px 3px 2px #000;
+}
+
+nav, footer {
+    height: 50px;
+    width:100%;
+    background-image: url("images/denbackground.jpg");
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100%, 100%;
+    background-size: 100%, 100%;
+}
+
+
+
+nav ul {
+    margin: 0px;
+    padding: 10px 5px 10px 30px;
+}
+
+nav li {	
+    display: inline;
+    font-size: 150%;
+    font-family: Georgia;
+    margin-right: 80px;
+}
+
+footer {
+    display: inline;
+    font-size: 150%;
+    font-family: Georgia;
+    margin-right: 80px;
+    align-content: center;
+    color: rgb(230,219,118);
+}
+
+nav li a {
+    color: rgb(230,219,118);
+}
+
+nav li a:hover, nav li a.current {
+
+    color: lightblue;}
+
+nav{ 
+    height:50px; 
+    width:100%;
+    position:fixed;
+    top:0; 
+    left:0; 
+    right:0;
+    z-index:999; 
+}
+
+#fd2{
+    background:url(https://upload.wikimedia.org/wikipedia/commons/3/31/The_top_of_New_Kunming_Airport.jpg);
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+#p3{
+    font-size: 130%;
+    font-family: verdana;
+    color: lightyellow;
+    text-shadow: 2px 3px 2px #000;
+
+}
+#Friendship{
+
+    background:url(http://static.panoramio.com/photos/large/56269574.jpg);
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+#socialbar img {
+    border:0px;
+}
+
+#socialbar li img {
+    width:48px; height:48px;
+}
+
+#socialbar li a:hover {
+    position:relative;top:2px;
+}
+
+#socialbar{
+    padding:0px;list-style: none outside none; margin:0px; position: static;
+}
+
+#socialbar li {
+    display:inline;padding-right:2px;
+}
+
+#socialbar{
+    width:270px;text-align:center;
+}
